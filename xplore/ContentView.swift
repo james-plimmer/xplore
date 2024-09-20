@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import Supabase
 
 struct ContentView: View {
+    
+    var loggedIn: String = supabase.auth.currentUser?.email ?? "NONE"
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        if loggedIn != "NONE"{
+            HomeView()
         }
-        .padding()
+        else{
+            SignInView()
+        }
     }
 }
 
