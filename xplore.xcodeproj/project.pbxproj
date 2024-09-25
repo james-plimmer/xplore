@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937EADA62CA474BB00EA7301 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937EADA52CA474BB00EA7301 /* MapKit.framework */; };
 		9388134D2C9857AF000E56AD /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 9388134C2C9857AF000E56AD /* Auth */; };
 		9388134F2C9857AF000E56AD /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 9388134E2C9857AF000E56AD /* Functions */; };
 		938813512C9857AF000E56AD /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 938813502C9857AF000E56AD /* PostgREST */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		937EADA52CA474BB00EA7301 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		938813562C9857DC000E56AD /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		93B556BB2C985A9D004DBBFD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		93B556BD2C99BA24004DBBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				9388134F2C9857AF000E56AD /* Functions in Frameworks */,
 				93B556BA2C98599D004DBBFD /* Supabase in Frameworks */,
 				9388134D2C9857AF000E56AD /* Auth in Frameworks */,
+				937EADA62CA474BB00EA7301 /* MapKit.framework in Frameworks */,
 				938813552C9857AF000E56AD /* Storage in Frameworks */,
 				938813532C9857AF000E56AD /* Realtime in Frameworks */,
 			);
@@ -92,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		937EADA42CA474BA00EA7301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937EADA52CA474BB00EA7301 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93DD1AFC2C982E180018E21E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +110,7 @@
 				93DD1B182C982E190018E21E /* xploreTests */,
 				93DD1B222C982E190018E21E /* xploreUITests */,
 				93DD1B062C982E180018E21E /* Products */,
+				937EADA42CA474BA00EA7301 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
