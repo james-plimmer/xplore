@@ -1,1 +1,11 @@
 /xplore/Supabase.swift
+
+# Ignore unnecessary Xcode build and temp files
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.xcuserdata/
+
+# Ignore derived data and user-specific settings
+DerivedData/
